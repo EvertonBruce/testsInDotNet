@@ -20,7 +20,7 @@ namespace TestNinja.UnitTests
 			var result = _customer.GetCustomer(0);
 
 			//NotFound
-			Assert.That(result, Is.TypeOf<ActionResult>());
+			Assert.That(result, Is.TypeOf<NotFound>());
 
 			//NotFound or one of its derivatives 
 			Assert.That(result, Is.InstanceOf<ActionResult>());
