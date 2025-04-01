@@ -59,6 +59,7 @@
     <Compile Include="HtmlFormatterTests.cs" />
     <Compile Include="CustomerControllerTests.cs" />
     <Compile Include="ErrorLoggerTests.cs" />
+    <Compile Include="FizzBuzzTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
