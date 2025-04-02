@@ -60,6 +60,7 @@
     <Compile Include="CustomerControllerTests.cs" />
     <Compile Include="ErrorLoggerTests.cs" />
     <Compile Include="FizzBuzzTests.cs" />
+    <Compile Include="DemeritPointsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
